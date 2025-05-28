@@ -11,18 +11,16 @@ function Landing() {
           <div className='col'>
             <h3>Media player 2025</h3>
             <p style={{ textAlign: "justify" }}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, eum cumque, officia nisi, tempora magni enim nam consequatur corrupti porro sint impedit! Tempora fuga iste qui aspernatur culpa necessitatibus quod?</p>
-            <div className='d-grid'>
-              <Link className='btn btn-light shadow' to={"/login"}>Click for More</Link>
-            </div>
+           
           </div>
 
           <div className='col'>
-            <div className='d-flex justify-content-center align-items-start  h-100'>
-              <img src="./src/pic1000.png" className='' alt="" style={{ width: "60%", height: "60%" }} />
+             <div className='d-grid m-5 '>
+              <Link className='btn btn-light shadow' to={"/login"}>Click for More</Link>
             </div>
           </div>
         </div>
-        <div className=' d-flex  justify-content-center' >
+        <div className=' d-flex  justify-content-center mt-5' >
           <Card style={{ width: '18rem' }} className='border shadow'>
             <Card.Img variant="top" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b434546-d2d2-4907-92ff-af5ac256c1fe/dhgz2fh-16f356b0-6789-4567-816f-777ed4df066a.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzViNDM0NTQ2LWQyZDItNDkwNy05MmZmLWFmNWFjMjU2YzFmZVwvZGhnejJmaC0xNmYzNTZiMC02Nzg5LTQ1NjctODE2Zi03NzdlZDRkZjA2NmEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.BUB3YJio3SS9HcO798ByqVJnKRFHg-1yfJK3uwqlkYU" style={{ height: "250px" }} />
             <Card.Body>
