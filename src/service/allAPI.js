@@ -50,4 +50,7 @@ export const addhistory=async(data)=>{
   export const deletehistory=async(id)=>{
      return await axios.delete(`${base_url}/history/${id}`)
 }
+export const addvideotocategoryapi=async(id,data)=>{
+     return await axios.put(`${base_url}/category/${id}`,data)
+}
  
