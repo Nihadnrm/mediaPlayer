@@ -55,7 +55,7 @@ const handlegethistory=async()=>{
      <tr>
     <td>{item.id}</td>
     <td>{item.title}</td>
-    <td><img src={item.imageurl} alt="" srcset="" /></td>
+    <td><img src={item.imageurl} alt="" srcset=""  style={{maxWidth:"18rem"}}/></td>
     <td>{item.watchurl}</td>
     <td>{item.currenttime}</td>
     <td>
