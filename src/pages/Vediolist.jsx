@@ -23,7 +23,7 @@ const[delevideo,setdelevideo]=useState("")
     <div className='border border-light shadow'>
     {
         vedio.length>0?
-        <div className='d-flex flex-wrap justify-content-around'>
+        <div className='d-flex flex-wrap justify-content-center'>
             {
                 vedio.map((item)=><Videocard vid={item} dele={setdelevideo} />)
             }

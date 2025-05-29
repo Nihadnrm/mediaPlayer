@@ -44,8 +44,8 @@ function Videocard({vid,dele,delstatus}) {
   return (
    <>
    
-   <div className='d-flex row justify-content-center '>
-   <Card style={{ width: '15rem' }} className='col-6 shadow ' draggable onDragStart={(e)=>{handledrag(e)}}>
+   <div className='d-flex  justify-content-center '>
+   <Card style={{ maxWidth: '18rem' }} className=' shadow ' draggable onDragStart={(e)=>{handledrag(e)}}>
       <Card.Img variant="top" src={vid.imageurl} onClick={handleShow} style={{cursor:"pointer",height:"200px"}} />
       <Card.Title>{vid.title}</Card.Title>
       <Card.Body >
